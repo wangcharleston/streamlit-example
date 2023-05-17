@@ -1,3 +1,9 @@
-altair
-pandas
+openai
+langchain
+PyPDF2
+faiss-cpu
+tiktoken
+huggingface_hub
+sentence_transformers
+python-dotenv
 streamlit
