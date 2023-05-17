@@ -47,11 +47,11 @@ def main():
     #extract the text
     if pdf is not None:
         #write the file to data directory
-        with open("data/" + pdf.name,"wb") as f:
+        with open("/" + pdf.name,"wb") as f:
             f.write(pdf.getbuffer())
         st.write("File uploaded successfully")
         
-        #loader = PyPDFLoader("data/"+pdf.name)
+        #loader = PyPDFLoader("/"+pdf.name)
         #documents = loader.load()
         # split the documents into chunks   
         #text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
